@@ -1,4 +1,11 @@
 # Introduction
+
+This is a fork of Unitree's repository [unitree_ros](https://github.com/unitreerobotics/unitree_ros).
+There are minor changes in the world description in [`/unitree_gazebo/worlds/stairs.world`](/unitree_gazebo/worlds/stairs.world).
+This repository is used as a submodule in the repository [uneron/unitree-go1-docker](https://github.com/uneron/unitree-go1-docker), a project that provides a docker development environment container for ROS Melodic based robots by Unitree.
+
+---
+
 Here are the ROS simulation packages for Unitree robots, You can load robots and joint controllers in Gazebo, so you can perform low-level control (control the torque, position and angular velocity) of the robot joints. Please be aware that the Gazebo simulation cannot do high-level control, namely walking. Aside from these simulation functions, you can also control your real robots in ROS with the [unitree_ros_to_real](https://github.com/unitreerobotics/unitree_ros_to_real) packages. For real robots, you can do high-level and low-level control using our ROS packages.
 
 ## Packages:
